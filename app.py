@@ -4,6 +4,8 @@ import dash_html_components as html
 
 app = dash.Dash()
 
+server = app.server
+
 app.layout = html.Div(
     html.H1(children="Procurement App")
 )
